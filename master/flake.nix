@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sorta-master.flake = false;
+  inputs.src-sorta-master.ref   = "refs/heads/master";
   inputs.src-sorta-master.owner = "narimiran";
-  inputs.src-sorta-master.ref   = "master";
   inputs.src-sorta-master.repo  = "sorta";
   inputs.src-sorta-master.type  = "github";
   
